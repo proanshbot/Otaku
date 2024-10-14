@@ -34,7 +34,7 @@ export default function Home() {
       <Navbar />
       <Billboard />
       <div className="pb-40">
-        <MovieList title="Trending Now" data={movies}/>
+        <MovieList title="Trending Now On SkyAnime" data={movies}/>
         <MovieList title="Favorite" data={favorites}/>
       </div>
     </>
