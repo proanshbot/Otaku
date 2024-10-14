@@ -53,7 +53,7 @@ const Auth = () => {
       <div className="bg-black w-full h-full lg:bg-opacity-50">
         <nav className="px-12 py-6">
           {/* <img src="/images/l.png" alt="logo" className="h-12" /> */}
-          <h3 className="h-12 text-4xl text-white">Otaku</h3>
+          <h3 className="h-12 text-4xl text-white">SkyAnime</h3>
           <div className="flex justify-center">
             <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
               <h2 className="text-white text-4xl mb-8 font-semibold ">
@@ -124,7 +124,7 @@ const Auth = () => {
                   </div> */}
               </div>
               <p className="text-neutral-500 mt-12">
-                {varient === 'login' ? "First time using Otaku?" : "Already have an account?"}
+                {varient === 'login' ? "First time using SkyAnime?" : "Already have an account?"}
                 <span onClick={toggleVarient} className="text-white ml-1 hover:underline cursor-pointer">
                     {varient === 'login' ? "Create an account." : "Login."}
                 </span>
